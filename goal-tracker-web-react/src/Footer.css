@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    border-top: 1px solid black;
+    /* border: 1px solid red; */
+}
+.team-members{
+    /* border: 1px solid pink; */
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+}
+
+.team-members h3{
+    margin-top: 1px;
+    text-decoration: 1px underline;
+}
+.team-members h4{
+    margin-top: 2px;
+    text-decoration: 1px underline;
+}
+.team-members h3 a, .team-members h4 a{
+    color: blue;
+}
+
+.qrcode{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.qrimage{
+    height: 80%;
+}
