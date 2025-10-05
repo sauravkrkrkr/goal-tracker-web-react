@@ -19,21 +19,27 @@
 .team-members{
     /* border: 1px solid pink; */
     width: 50%;
-    height: 20vh;
+    height: 100%;
     /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.team-members h1{
+    text-align: center;
+    height: 35%;
+}
 
 .team-members h3{
     margin-top: 1px;
     text-decoration: 1px underline;
+    height: 20%;
 }
 .team-members h4{
     margin-top: 2px;
     text-decoration: 1px underline;
+    height: 15%;
 }
 .team-members h3 a, .team-members h4 a{
     color: blue;
