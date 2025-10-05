@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Homepage />
+      <div className="fivestep">
+        <img src="/images/fivesteps.png" alt="Steps to follow" />
+      </div>
       <Footer />
     </>
   )
